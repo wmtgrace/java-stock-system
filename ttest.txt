@@ -1,0 +1,43 @@
+SI1411005,c15,2014-11-08 11:20,Kowloon,Rm719,Kwun Tong Estate
+A002,DD,Keyboard,wirsds,3,58.8,176.4
+10,0.9,168.76
+SI1411002,c15,2014-11-18 11:59,Room 5C,5/F Chan Wan Building Chai Wan Street Chai Wan
+A001,Mouse,Keyboard,wireless mouse,2,59.9,119.8
+10,0.9,117.82
+IN1411024,c30,2014-11-11 11:20,Room 5C,5/F Chan Wan Building Chai Wan Street Chai Wan
+A002,DD,Notebook,wirsds,3,58.8,176.4
+15,0.9,173.76
+IN1111022,c30,2011-11-23 11:20,Room 5D,5/F Chan Wan Building Chai Wan Street Chai Wan
+A002,DD,Notebook,wirsds,3,58.8,176.4
+15,0.9,173.76
+SI1412000,c15,2014-12-08 12:45,Room 5D,5/F Chan Wan Building Chai Wan Street Chai Wan
+C001,Wired Programmable PC Gaming Keyboard,Keyboard,Multimedia Illuminated Backlit USB Wired Programmable PC Gaming Keyboard,4,180.9,723.6
+20,0.9,671.24
+SI1412001,c15,2014-12-08 20:01,3/F, 28 Wang Hoi Road, Kowloon Bay, Kowloon, H.K.
+A006,Acer ES1-111M-C7DE,Notebook,NEW Acer ES1-111M-C7DE Intel @ 2.58GHz 11.6" 250GB HD Windows 8.1 with Bing HDMI,3,6000.0,18000.0
+15,0.9,16215.0
+SI1412002,c15,2014-12-08 20:24,12/F, 28 Wang Hoi Road, Kowloon Bay, Kowloon, H.K.
+A006,Acer ES1-111M-C7DE,Notebook,NEW Acer ES1-111M-C7DE Intel @ 2.58GHz 11.6" 250GB HD Windows 8.1 with Bing HDMI,4,6000.0,24000.0
+C001,Wired Programmable PC Gaming Keyboard,Keyboard,Multimedia Illuminated Backlit USB Wired Programmable PC Gaming Keyboard,3,180.9,542.7
+0,0.9,22088.43
+IN1412000,c15,2014-12-08 20:24,12/F, 28 Hung Tai Road, Kwun Tong, Kowloon, H.K.
+A001,B-Mouse,Mouse,Bluetooth Mouse,3,99.9,299.7
+10,0.9,279.73
+SI1412003,c15,2014-12-10 11:56,Rm719,Kwun Tong Estate
+A006,Acer ES1-111M-C7DE,Notebook,NEW Acer ES1-111M-C7DE Intel @ 2.58GHz 11.6" 250GB HD Windows 8.1 with Bing HDMI,1,6000.0,6000.0
+0,0.9,5400.0
+SI1412004,lily1,2014-12-10 16:54,abc street
+A005,HP Pavilion 15-f009wm,Notebook,NEW HP Pavilion 15-f009wm Dual Core 4GB 500GB HD 15.6" Windows 8.1 HDMI USB 3.0,7,4000.0,28000.0
+0,1.0,28000.0
+IN1412001,c15,2014-12-10 16:58,Rm719,Kwun Tong Estate
+A001,B-Mouse,Mouse,Bluetooth Mouse,20,99.9,1998.0
+0,0.9,1798.2
+SI1412006,c60,2014-12-10 17:01,AAA BBB213
+C001,Wired Programmable PC Gaming Keyboard,Keyboard,Multimedia Illuminated Backlit USB Wired Programmable PC Gaming Keyboard,6,180.9,1085.4
+10,0.8,878.32
+SI1412008,c60,2014-12-11 10:30,aaa bbb
+A006,Acer ES1-111M-C7DE,Notebook,NEW Acer ES1-111M-C7DE Intel @ 2.58GHz 11.6" 250GB HD Windows 8.1 with Bing HDMI,2,6000.0,12000.0
+0,0.8,9600.0
+SI1412009,lily3,2014-12-11 11:02,qqq
+A006,Acer ES1-111M-C7DE,Notebook,NEW Acer ES1-111M-C7DE Intel @ 2.58GHz 11.6" 250GB HD Windows 8.1 with Bing HDMI,2,6000.0,12000.0
+0,1.0,12000.0
