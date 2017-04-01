@@ -47,17 +47,15 @@ public final class SystemMenu {
             Matcher adminM = adminp.matcher(adminLine);
             if(adminM.matches()){
                 adminac = new Admin(adminM.group(2));
-                FirstPanel.loading.append("Admin File opened succesfully\n");
                 return true;
             }
             else{
-                FirstPanel.loading.append("Error Find: No admin find in the file\n");
+                
                 JOptionPane.showMessageDialog(inP,"No admin find in the file,please open the correct file.","Error Find: No admin find in the file",JOptionPane.ERROR_MESSAGE);
                 JFileChooser chooser = new JFileChooser( );
                 int status=chooser.showOpenDialog(inP);
                 if(status== JFileChooser.APPROVE_OPTION) {
                     File file = chooser.getSelectedFile();
-                    FirstPanel.loading.append("File "+file.getName()+" opened\n");
                     return openfile(inP,file.getAbsolutePath());
                 }
                 else
@@ -65,13 +63,11 @@ public final class SystemMenu {
             }
             
         }catch(IOException e){
-            FirstPanel.loading.append("Error Find: Admin File Open Fail\n");
                 JOptionPane.showMessageDialog(inP,"Admin File Open Fail,please open the correct file.","Error Find: Admin File Open Fail",JOptionPane.ERROR_MESSAGE);
                 JFileChooser chooser = new JFileChooser( );
                 int status=chooser.showOpenDialog(inP);
                 if(status== JFileChooser.APPROVE_OPTION) {
                     File file = chooser.getSelectedFile();
-                    FirstPanel.loading.append("File "+file.getName()+" opened\n");
                     return openfile(inP,file.getAbsolutePath());
                 }
                 else

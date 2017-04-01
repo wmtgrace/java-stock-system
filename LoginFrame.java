@@ -70,6 +70,7 @@ public class LoginFrame extends JFrame {
     private void loginP(){
         
         final Music loginsd= new Music("nokia.wav");
+		loginPanel.setBackground(Color.white);
         loginPanel.setLayout(null);
         JLabel titleName = new JLabel("GJLR IT LIMITED",JLabel.CENTER);
         newfont=newfont.deriveFont(Font.PLAIN,100);

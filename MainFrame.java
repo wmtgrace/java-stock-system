@@ -27,9 +27,7 @@ public final class MainFrame extends JFrame{
     private final CustomerInputPanel cusPanel;
     private final JTabbedPane adminP;
     private final JLabel headln;
-    private final JButton music;
     private final TableRowSorter<TableModel> sorter,cusSorter;
-    Music background;
     private static boolean bgMus=false;
     private final Font defaultfont=new Font("Lucida Console",Font.PLAIN,20);
     private final AllProdTable prodmodel;
@@ -44,9 +42,7 @@ public final class MainFrame extends JFrame{
     private int actualIndex;
     private Font titlefont;
     public MainFrame(String inID) {
-        this.setTitle("GJLR's Purchasing System");
-        background= new Music("M101.wav");
-        
+        this.setTitle("GJLR's Purchasing System");       
         trans = SystemMenu.getTransTM();
         titlePanel = new JPanel();
         titlefont = LoginFrame.newfont;
@@ -120,17 +116,7 @@ public final class MainFrame extends JFrame{
         time.setFont(new java.awt.Font("Tahoma", 0, 24)); 
         titlePanel.add(time);
         
-        music = new JButton(new ImageIcon("musicNote.png"));
-        music.setToolTipText("Turn on the background music");
-        music.setPreferredSize(new Dimension(40,40));
-        music.addActionListener(new ActionListener() {
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                MusicActionPerformed();
-            }
-        });
-        titlePanel.add(music);
+       
         cusSetting();
         new Thread(){
             public void run(){
@@ -169,33 +155,6 @@ public final class MainFrame extends JFrame{
             }
             
         });
-        JPanel settingP = new JPanel(null);
-        JPanel musicP = new JPanel(new FlowLayout());
-        JLabel musicLB  = new JLabel("Msuic Change:");
-        musicLB.setBounds(20, 20, 200, 30);
-        JButton changems1 = new JButton("New Divide");
-        musicP.add(changems1);
-        musicP.setBounds(20,60,800,40);
-        changems1.addActionListener(new ActionListener() { 
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                background= new Music("Linkin_Park.wav");
-                MusicActionPerformed();
-            }
-        });
-        JButton changems2= new JButton("Default Music");
-        musicP.add(changems2);
-        changems2.addActionListener(new ActionListener() { 
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                background= new Music("M101.wav");
-                MusicActionPerformed();
-            }
-        });
-        
-        settingP.add(musicLB);
-        settingP.add(musicP);
-        cusPanel.myrecordP.add("<html><body  topmargin=10  marginheight=10><font size=4>Setting</font></body></html>", settingP);
     }
     
     private void addComponentToAdmin(){
@@ -473,16 +432,7 @@ public final class MainFrame extends JFrame{
         
         return check;
     }
-    private void MusicActionPerformed() {                                         
-       bgMus = background.musicstop(bgMus);
-        if(bgMus){
-            music.setToolTipText("Turn off the background music");
-            music.setIcon (new ImageIcon("musicNote2.png"));
-        }else{
-            music.setToolTipText("Turn on the background music");
-            music.setIcon (new ImageIcon("musicNote.png"));
-        }
-    } 
+    
     
     private void selectCatActionPerformed(ItemEvent prodev,TableRowSorter<TableModel> insorter) {
         if (prodev.getStateChange() == ItemEvent.SELECTED) {
