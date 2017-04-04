@@ -225,9 +225,8 @@ public class LoginFrame extends JFrame {
                         //clear the content for the next input
                         loginTF.setText("");
                         pwTF.setText("");
+                        mainF.setVisible(true);
                         
-                        loginsd.musicplay();
-                        final LoadingFrame load= new LoadingFrame(mainF);
                         
 
                     }

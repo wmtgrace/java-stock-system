@@ -1,8 +1,8 @@
 A001,B-Mouse,Mouse,Bluetooth Mouse,10,99.9
 B003,HP 15-f039wm ,Notebook,NEW HP 15-f039wm Intel Dual @ 2.41GHz Turbo DVD+RW 4GB 500GB HD 15.6" Win 8.1,300,3000.0
 A005,HP Pavilion 15-f009wm,Notebook,NEW HP Pavilion 15-f009wm Dual Core 4GB 500GB HD 15.6" Windows 8.1 HDMI USB 3.0,489,4000.0
-A006,Acer ES1-111M-C7DE,Notebook,NEW Acer ES1-111M-C7DE Intel @ 2.58GHz 11.6" 250GB HD Windows 8.1 with Bing HDMI,487,6000.0
+A006,Acer ES1-111M-C7DE,Notebook,NEW Acer ES1-111M-C7DE Intel @ 2.58GHz 11.6" 250GB HD Windows 8.1 with Bing HDMI,486,6000.0
 A007,Mini Mouse ottico laser USB,Mouse,MINI Mouse ottico laser USBxPC.Con filo detraibile,10,49.99
-C001,Wired Programmable PC Gaming Keyboard,Keyboard,Multimedia Illuminated Backlit USB Wired Programmable PC Gaming Keyboard,12,180.9
+C001,Wired Programmable PC Gaming Keyboard,Keyboard,Multimedia Illuminated Backlit USB Wired Programmable PC Gaming Keyboard,11,180.9
 C004,Wireless bluetooth keyboard,Keyboard,Logitech diNovo Edge: wireless bluetooth keyboard,20,399.9
 sss,B-Mouse,Mouse,Bluetooth Mouse,22,99.9

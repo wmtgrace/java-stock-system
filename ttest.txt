@@ -41,3 +41,7 @@ A006,Acer ES1-111M-C7DE,Notebook,NEW Acer ES1-111M-C7DE Intel @ 2.58GHz 11.6" 25
 SI1412009,lily3,2014-12-11 11:02,qqq
 A006,Acer ES1-111M-C7DE,Notebook,NEW Acer ES1-111M-C7DE Intel @ 2.58GHz 11.6" 250GB HD Windows 8.1 with Bing HDMI,2,6000.0,12000.0
 0,1.0,12000.0
+SI1704000,c15,2017-04-04 22:20,Rm719,Kwun Tong Estate
+A006,Acer ES1-111M-C7DE,Notebook,NEW Acer ES1-111M-C7DE Intel @ 2.58GHz 11.6" 250GB HD Windows 8.1 with Bing HDMI,1,6000.0,6000.0
+C001,Wired Programmable PC Gaming Keyboard,Keyboard,Multimedia Illuminated Backlit USB Wired Programmable PC Gaming Keyboard,1,180.9,180.9
+0,0.9,5562.81
